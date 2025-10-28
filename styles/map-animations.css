@@ -1,0 +1,303 @@
+/* رسوم متحركة للخرائط */
+
+/* تأثير الظهور التدريجي للخريطة */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out;
+}
+
+/* تأثير النبض للعلامات المحددة */
+@keyframes pulse-marker {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.7);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 10px rgba(59, 130, 246, 0);
+  }
+}
+
+.marker-selected {
+  animation: pulse-marker 2s infinite;
+}
+
+/* تأثير التحويم على العلامات */
+.custom-marker:hover {
+  transform: scale(1.2) !important;
+  transition: transform 0.3s ease;
+  z-index: 1000 !important;
+}
+
+/* تأثير التحميل */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* تأثير الانزلاق للوحة التحكم */
+@keyframes slide-in-right {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.4s ease-out;
+}
+
+/* تأثير الانزلاق للوحة الإحصائيات */
+@keyframes slide-in-left {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.4s ease-out;
+}
+
+/* تأثير النبض للأزرار */
+@keyframes pulse-button {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.animate-pulse-button:hover {
+  animation: pulse-button 0.6s ease-in-out;
+}
+
+/* تأثير الارتداد للعلامات الجديدة */
+@keyframes bounce-in {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-bounce-in {
+  animation: bounce-in 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* تأثير التوهج للخريطة الحرارية */
+@keyframes glow {
+  0%, 100% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.2);
+  }
+}
+
+.heatmap-glow {
+  animation: glow 3s ease-in-out infinite;
+}
+
+/* تأثير الظهور للنوافذ المنبثقة */
+@keyframes popup-appear {
+  from {
+    transform: scale(0.8) translateY(10px);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+}
+
+.leaflet-popup-content-wrapper {
+  animation: popup-appear 0.3s ease-out;
+}
+
+/* تحسين مظهر الخريطة المصغرة */
+.leaflet-control-minimap {
+  transition: all 0.3s ease;
+}
+
+.leaflet-control-minimap:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+/* تأثير التحميل للبيانات */
+@keyframes loading-dots {
+  0%, 20% {
+    color: rgba(0, 0, 0, 0.4);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0.2),
+                 0.5em 0 0 rgba(0, 0, 0, 0.2);
+  }
+  40% {
+    color: rgba(0, 0, 0, 1);
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0.4),
+                 0.5em 0 0 rgba(0, 0, 0, 0.2);
+  }
+  60% {
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 1),
+                 0.5em 0 0 rgba(0, 0, 0, 0.4);
+  }
+  80%, 100% {
+    text-shadow: 0.25em 0 0 rgba(0, 0, 0, 1),
+                 0.5em 0 0 rgba(0, 0, 0, 1);
+  }
+}
+
+.loading-dots::after {
+  content: '...';
+  animation: loading-dots 1.4s infinite;
+}
+
+/* تحسين مظهر أزرار التحكم */
+.map-control-button {
+  transition: all 0.2s ease;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.map-control-button:hover {
+  background: rgba(255, 255, 255, 1);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.map-control-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* تأثير الموجة للنقر */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+.ripple-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-effect::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.5);
+  transform: translate(-50%, -50%);
+  transition: width 0.6s, height 0.6s;
+}
+
+.ripple-effect:active::before {
+  width: 300px;
+  height: 300px;
+  animation: ripple 0.6s ease-out;
+}
+
+/* تحسين مظهر وسيلة الإيضاح */
+.map-legend {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.map-legend-item {
+  transition: all 0.2s ease;
+}
+
+.map-legend-item:hover {
+  background: rgba(0, 0, 0, 0.05);
+  transform: translateX(2px);
+}
+
+/* تحسين مظهر الإحصائيات */
+.map-stats {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.map-stats-item {
+  transition: all 0.2s ease;
+}
+
+.map-stats-item:hover {
+  background: rgba(59, 130, 246, 0.1);
+  transform: scale(1.02);
+}
+
+/* تأثيرات الاستجابة */
+@media (max-width: 768px) {
+  .custom-marker {
+    transform: scale(0.8) !important;
+  }
+  
+  .leaflet-control-minimap {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  
+  .map-control-button {
+    padding: 8px !important;
+    font-size: 12px !important;
+  }
+}
+
+/* تحسين الأداء */
+.leaflet-container {
+  will-change: transform;
+}
+
+.custom-marker {
+  will-change: transform;
+}
+
+.map-control-button {
+  will-change: transform, background-color;
+}
