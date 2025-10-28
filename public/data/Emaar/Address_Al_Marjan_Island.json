@@ -1,0 +1,240 @@
+{
+  "projectName": {
+    "en": "Address Al Marjan Island",
+    "ar": ""
+  },
+  "projectID": "address-al-marjan-island-ras-al-khaimah",
+  "country": {
+    "ar": "الإمارات العربية المتحدة",
+    "en": ""
+  },
+  "city": {
+    "en": "Ras Al Khaimah",
+    "ar": ""
+  },
+  "description": {
+    "en": "Explore Address Al Marjan Island, Ras Al Khaimah: a luxurious oasis offering direct beach access, urban proximity, and redefined luxury apartments & townhouses amidst the UAE skyline and serene surroundings.",
+    "ar": ""
+  },
+  "3D_TourLink": null,
+  "amenities": [
+    {
+      "name": {
+        "en": "Parks",
+        "ar": ""
+      },
+      "description": {
+        "en": "Lavish parks",
+        "ar": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Dining",
+        "ar": ""
+      },
+      "description": {
+        "en": "Gourmet dining options",
+        "ar": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Shopping",
+        "ar": ""
+      },
+      "description": {
+        "en": "Diverse shopping outlets",
+        "ar": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Water Sports",
+        "ar": ""
+      },
+      "description": {
+        "en": "Wealth of water sports activities",
+        "ar": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Recreational Activities",
+        "ar": ""
+      },
+      "description": {
+        "en": "Recreational activities",
+        "ar": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Beach Access",
+        "ar": ""
+      },
+      "description": {
+        "en": "Direct beachfront access",
+        "ar": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Landscaped Gardens",
+        "ar": ""
+      },
+      "description": {
+        "en": "Beautifully landscaped gardens",
+        "ar": ""
+      }
+    },
+    {
+      "name": {
+        "en": "Road Access",
+        "ar": ""
+      },
+      "description": {
+        "en": "Excellent road access to key areas",
+        "ar": ""
+      }
+    }
+  ],
+  "area": {
+    "en": "Al Marjan Island",
+    "ar": ""
+  },
+  "bedrooms": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "brand": "Emaar Properties",
+  "brochurePdfLink": null,
+  "contact": {
+    "phone": null,
+    "whatsapp": "https://wa.link/u9ik8p"
+  },
+  "deliveryDate": null,
+  "galleryImages": [
+    "https://cdn.properties.emaar.com/wp-content/uploads/2023/11/Community-Hero-Image-1.jpg",
+    "https://cdn.properties.emaar.com/wp-content/uploads/2023/11/ADH_RAK_HERO_D_1620x832-706x385.jpg"
+  ],
+  "goldenVisaEligible": false,
+  "heroImage": "https://cdn.properties.emaar.com/wp-content/uploads/2023/11/Community-Hero-Image-1.jpg",
+  "latitude": 0,
+  "launchDate": null,
+  "location": {
+    "en": "Al Marjan Island, Ras Al Khaimah",
+    "ar": ""
+  },
+  "longitude": 0,
+  "mapDescription": {
+    "en": "Address Al Marjan Island, Ras Al Khaimah Community Guide Map",
+    "ar": ""
+  },
+  "mapPointsOfInterest": [
+    {
+      "name": {
+        "en": "Ras Al Khaimah International Airport",
+        "ar": ""
+      },
+      "distance": {
+        "en": "15 minutes",
+        "ar": ""
+      },
+      "category": {
+        "en": "Airport",
+        "ar": ""
+      },
+      "coordinates": {}
+    },
+    {
+      "name": {
+        "en": "Al Hamra Village",
+        "ar": ""
+      },
+      "distance": {
+        "en": "10 minutes",
+        "ar": ""
+      },
+      "category": {
+        "en": "Community",
+        "ar": ""
+      },
+      "coordinates": {}
+    },
+    {
+      "name": {
+        "en": "Downtown Ras Al Khaimah",
+        "ar": ""
+      },
+      "distance": {
+        "en": "33 minutes",
+        "ar": ""
+      },
+      "category": {
+        "en": "Downtown",
+        "ar": ""
+      },
+      "coordinates": {}
+    },
+    {
+      "name": {
+        "en": "Dubai International Airport",
+        "ar": ""
+      },
+      "distance": {
+        "en": "45 minutes",
+        "ar": ""
+      },
+      "category": {
+        "en": "Airport",
+        "ar": ""
+      },
+      "coordinates": {}
+    }
+  ],
+  "maxAreaSqft": 0,
+  "maxAreaSqmt": 0,
+  "maxPriceAED": 0,
+  "minAreaSqft": 0,
+  "minAreaSqmt": 0,
+  "minPriceAED": 1700000,
+  "paymentPlan": {
+    "ar": "",
+    "en": ""
+  },
+  "projectPageLink": "https://properties.emaar.com/en/our-communities/address-al-marjan-island-ras-al-khaimah/",
+  "projectStatus": {
+    "ar": "",
+    "en": ""
+  },
+  "propertyTypes": [
+    {
+      "en": "Apartments",
+      "ar": ""
+    },
+    {
+      "en": "Townhouses",
+      "ar": ""
+    },
+    {
+      "en": "Sea Front-Homes",
+      "ar": ""
+    }
+  ],
+  "sellable": true,
+  "videoLink": null,
+  "views": [
+    {
+      "en": "Arabian Sea",
+      "ar": ""
+    },
+    {
+      "en": "Beachfront",
+      "ar": ""
+    }
+  ],
+  "projectCategory": "Community"
+}
